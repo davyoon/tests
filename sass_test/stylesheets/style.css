@@ -1,0 +1,82 @@
+/* line 1, ../sass/partials/_profile.scss */
+.profile-img {
+  border-radius: 999px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid seagreen;
+}
+
+/* line 11, ../sass/style.scss */
+body {
+  background: #2c3e50;
+}
+
+/* line 17, ../sass/style.scss */
+nav ul {
+  background: #2c3e50;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 24, ../sass/style.scss */
+nav li {
+  display: inline-block;
+}
+/* line 28, ../sass/style.scss */
+nav a {
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+/* line 35, ../sass/style.scss */
+nav a:hover {
+  background: #16a085;
+}
+
+/* line 41, ../sass/style.scss */
+.panel, .little-panel, .big-panel {
+  border: 3px solid dodgerblue;
+  background: #eea571;
+  margin: 10px;
+}
+
+/* line 54, ../sass/style.scss */
+.little-panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+/* line 61, ../sass/style.scss */
+.big-panel {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 32px;
+  padding: 20px;
+}
+
+/* line 68, ../sass/style.scss */
+.button, .jumbo-button, .light-button {
+  background: #16A085;
+  border-radius: 8px;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* line 77, ../sass/style.scss */
+.jumbo-button {
+  padding: 35px;
+}
+
+/* line 82, ../sass/style.scss */
+.light-button {
+  background: #1ccdaa;
+}
