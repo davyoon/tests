@@ -11,6 +11,7 @@ var Note = React.createClass({
 	},
 	componentDidMount: function(){
 		$(this.getDOMNode()).draggable();
+		
 	},
 	randomBetween: function(min, max){
 		return (min + Math.ceil(Math.random() * max));
