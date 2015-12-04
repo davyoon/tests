@@ -58,6 +58,9 @@ import pdb; pdb.set_trace()
 
 
 
+#learn Django and Pandas
+
+
 
 
 
