@@ -1,3 +1,5 @@
+# from exercises import tally			get tally function from exercises file
+
 import csv
 csv_file = open("rock.csv", 'rb')  #if python 3, use 'rU'
 
