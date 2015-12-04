@@ -1,16 +1,16 @@
 {
-  "name": "react_test",
+  "name": "bulletin-board",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A bulletin board developed in react",
+  "main": "Note.js",
   "dependencies": {
     "httpster": "^1.0.1",
     "react-tools": "^0.13.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "open http://localhost:3000 & httpster -p 3000"
   },
-  "author": "",
+  "author": "David Yoon",
   "license": "ISC"
 }
