@@ -1,0 +1,22 @@
+.top{
+	height: 800px;
+	background-color: red;
+}
+
+.mid{
+	height: 800px;
+
+}
+
+.text{
+	height: 300px;
+	width: 300px;
+	font-size: 40px;
+	margin-top: 300px;
+	margin-left: 500px;
+}
+
+.bot{
+	height: 800px;
+	background-color: blue;
+}
