@@ -8,7 +8,7 @@
 	<h1>List of restaurants</h1>
 	<ul>
 		<% for(var i = 0; i < restaurants.length; i++){ %>
-			<li><%= restaurants[i].name %> has <%= restaurants[i].stats.checkinsCount %> checkins up to date.</li>
+			<li><%= restaurants[i].venue.name %> has <%= restaurants[i].venue.stats.checkinsCount %> checkins up to date.</li>
 		<% } %>
 	</ul>
 </body>
