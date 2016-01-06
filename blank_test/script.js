@@ -1,5 +1,2 @@
-var person = {};
-person.firstname = "david"
-person.address = {};
-person.address.street = "208st";
-console.log(person.address.street)
+var a = G$("david", "yoon", "en");
+console.log(a)
